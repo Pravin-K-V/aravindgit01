@@ -1,0 +1,16 @@
+.card {
+  flex-basis: calc(33.33% - 20px);
+  background-color: cadetblue;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top:100px ;
+  margin-bottom: 0px;
+  margin-left: 300px;
+  margin-right :300px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.new{
+  background-image: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Fonline-banking-technology-concept-illustration-bank-electric-circuit-lines-background_387612-43.jpg&tbnid=YDrqPqDaKiwB8M&vet=12ahUKEwjmicXQ-eX9AhWiX3wKHRKdDK4QMygRegUIARDyAQ..i&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbanking-background&docid=I0jENJK8A-13LM&w=626&h=334&q=bank%20website%20background%20images&ved=2ahUKEwjmicXQ-eX9AhWiX3wKHRKdDK4QMygRegUIARDyAQ";
+}

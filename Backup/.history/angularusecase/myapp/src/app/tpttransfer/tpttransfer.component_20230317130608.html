@@ -1,0 +1,22 @@
+<div id="pdf-contenet">
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Account No</th>
+        <th>Bank Name</th>
+        <th>Branch</th>
+        <th>IFSC code</th>
+        <th>Transfer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let transaction of data">
+        <td>{{ transaction.name}}</td>
+        <td>{{ transaction.account_no }}</td>
+        <td>{{ transaction.Bank_name }}</td>
+        <td>{{ transaction.branch }}</td>
+        <td>{{ transaction.IFSC_CODE }}</td>
+        <button type="button" class="btn btn-primary" (click)="transfer(transaction.account_no)">Transfer</button>
+      </tr>
+    </tbody>

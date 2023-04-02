@@ -1,0 +1,12 @@
+<p>Your logged in</p>
+<button (click)="ondetails()">Account details</button><br>
+<div *ngIf="data">
+  <p>Name:{{ this.data.name }}</p><br>
+  <p>Customer Id:{{ this.data.account_id}}</p><br>
+  <p>Branch:{{ this.data.branch}}</p><br>
+  <p>IFSC Code:{{ this.data.IFSC_CODE}}</p><br>
+  <p>Email:{{ this.data.email}}</p><br>
+  <p>Phone no:{{ this.data.phone}}</p><br>
+  <p>Date of Birth:{{ this.data.date_of_birth}}</p><br>
+</div>
+<button (click)="onsummary()">Account summary</button>

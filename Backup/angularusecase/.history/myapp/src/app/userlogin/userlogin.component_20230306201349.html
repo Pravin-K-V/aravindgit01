@@ -1,0 +1,10 @@
+<p>userlogin works!</p>
+<a (click)="onmain()">Go to main page</a>
+<form #basicform="ngForm" (submit)="create">
+  <input ngModel type="text" placeholder="username" name="username" size="30" #username="ngModel">
+  <br>
+  <input ngModel type="password" placeholder="password" name="password" size="30" required #password="ngModel" >
+  <br>
+
+  <button>submit</button>
+</form>

@@ -1,0 +1,8 @@
+/* .nav navbar-nav{
+  text-align: right;
+
+} */
+
+.nav navbar-nav navbar-right{
+  text-align: center;
+}

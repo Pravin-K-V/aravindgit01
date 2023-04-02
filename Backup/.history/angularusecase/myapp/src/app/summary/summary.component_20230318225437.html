@@ -1,0 +1,50 @@
+<!-- <div class="body">
+    <div class="card" >
+
+        <h4>Account Summary</h4>
+        <h5>Account Number:{{ this.data.account_id}}</h5>
+        <h5>Branch:{{ this.data.branch}}</h5>
+        <h5>IFSC Code:{{ this.data.IFSC_CODE}}</h5>
+        <h5>Balance:{{ this.data.balance}}</h5>
+
+
+    </div>
+</div> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <style>
+    body {
+      background-image: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .card {
+      /* Add your styles for the card element here */
+      flex-basis: calc(33.33% - 20px);
+      background-color: cadetblue;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin-top:100px ;
+      margin-bottom: 0px;
+      margin-left: 300px;
+      margin-right :300px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h4>Account Summary</h4>
+    <h5>Account Number:{{ this.data.account_id}}</h5>
+    <h5>Branch:{{ this.data.branch}}</h5>
+    <h5>IFSC Code:{{ this.data.IFSC_CODE}}</h5>
+    <h5>Balance:{{ this.data.balance}}</h5>
+  </div>
+</body>
+</html>

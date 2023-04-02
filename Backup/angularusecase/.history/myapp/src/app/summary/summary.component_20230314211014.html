@@ -1,0 +1,13 @@
+<div>
+<!-- <p>Name:{{ this.data.name }}</p> -->
+<p>Account Number:{{ this.data.account_id}}</p>
+<p>Branch:{{ this.data.branch}}</p>
+<p>IFSC Code:{{ this.data.IFSC_CODE}}</p>
+<p>Balance:{{ this.data.balance}}</p>
+<form (submit)="ondeposit()">
+  <label>Amount:</label>
+  <input type="number" name="amount" [(ngModel)]="depositAmount" required>
+  <button type="submit">Deposit</button>
+</form>
+
+</div>

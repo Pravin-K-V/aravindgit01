@@ -1,0 +1,35 @@
+<div class="body">
+<div class="container" style="text-align: center;">
+<br>
+<br>
+
+  <form
+
+            action=""
+            #f="ngForm"
+            novalidate
+            (ngSubmit)="f.form.valid&&onsubmit()"
+            >
+            <div>
+              <label style="text-decoration-thickness: black;">To account number</label><br>
+
+              <input type="text"  name="receiver_account_number"   [(ngModel)]="data.receiver_account_number" #name="ngModel" required   >
+              <span  *ngIf="this.submit&&name.errors?.['required']" >
+                  Account no is required.
+              </span>
+           </div>
+           <div>
+            <label>Amount</label><br>
+
+            <input type="text"  name="amount"  [(ngModel)]="data.amount" #email="ngModel" required  >
+            <span   *ngIf="this.submit&&email.errors?.['required']">
+                Amount is required.
+            </span>
+            <br>
+            <br>
+            <input type="submit" class="btn btn-success"  value="Submit" (click)="submit=true">
+         </div>
+</form>
+</div>
+</div>
+

@@ -1,0 +1,7 @@
+.body {
+  background-image: url("https://img.freepik.com/premium-vector/3d-crypto-bank-coins-icons-vector-illustrations-web-mobile-app-promotion-web-design_515653-232.jpg?w=996");
+  height: 100vh;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center center;
+}

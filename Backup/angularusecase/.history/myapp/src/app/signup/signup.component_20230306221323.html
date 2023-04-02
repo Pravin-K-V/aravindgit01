@@ -1,0 +1,16 @@
+<div>
+  <p>Register here</p>
+<a (click)="onmain()">Go to main page</a>
+<form #basicform="ngForm" (submit)="(data)">
+
+  <input ngModel type="text" placeholder="name" name="username" size="30"#username="ngModel">
+  <br>
+  <input  ngModel type="email" placeholder="email" name="email" pattern=".+@globex\.com" size="30" required #email="ngModel">
+  <br>
+  <input ngModel type="password" placeholder="password" name="paaword" size="30" required #password="ngModel" >
+  <br>
+  <input ngModel type="text" placeholder="Mobile" name="Mobile" size="30" #Mobile="ngModel">
+ <br>
+  <button>submit</button>
+</form>
+</div>

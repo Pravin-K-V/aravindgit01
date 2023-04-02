@@ -1,0 +1,24 @@
+.card {
+  flex-basis: calc(33.33% - 20px);
+  background-color: cadetblue;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top:40px ;
+  margin-bottom: 0px;
+  margin-left: 300px;
+  margin-right :300px;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+.body {
+  background-image: url(https://img.freepik.com/free-vector/gradient-cryptocurrency-concept_23-2149215736.jpg?w=996&t=st=1679161489~exp=1679162089~hmac=9d79770b063148b6387d76daa83bb5bed06cedec4a677102da143a1b6cc6b9ab);
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
+
+
+}

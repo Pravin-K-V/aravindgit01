@@ -1,0 +1,10 @@
+<div class="body">
+  <br>
+  <br>
+  <br>
+<form (submit)="ondeposit()">
+  <label>Amount:</label>
+  <input type="number" name="amount" [(ngModel)]="depositAmount" required>
+  <button type="submit">Deposit</button>
+</form>
+</div>
